@@ -14,10 +14,12 @@
   - yarn add class-validator class-transformer //moidicaf en main.ts
   - nest g mo common
   - nest g pi common/pipes/paseMongoId
+  - nest g res seed --no-spec
+  - yarn add axios
 
   ###GIt
   git add .
-  git commit -m "Clases Nest"
+  git commit -m "PokeNest"
   git remote add origin https://github.com/ImpalaScale2023/NestMongo_avance.git
   git push -u origin main
 
