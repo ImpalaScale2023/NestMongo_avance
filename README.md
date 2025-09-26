@@ -16,6 +16,8 @@
   - nest g pi common/pipes/paseMongoId
   - nest g res seed --no-spec
   - yarn add axios
+  - yarn add @nestjs/config
+  - yarn add install joi --validar errors
 
   ###GIt
   git add .
@@ -39,3 +41,15 @@ yanr add -g @nestjs/cli
 ```
 docker-compose up -d
 ```
+5. Clonar el archivo __.env.template__ y renombrar la opcia a __.env__
+
+6. Llenar las variables de entorno definidas en ```.env```
+
+7. Recargar la bd con la semilla
+```
+http://localhost:3000/api/v2/seed
+```
+
+## Stack Usado
+MONGODB
+Nest

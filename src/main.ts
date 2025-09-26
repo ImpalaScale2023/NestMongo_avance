@@ -11,6 +11,10 @@ async function bootstrap() {
     new ValidationPipe({
       whitelist: true,
       forbidNonWhitelisted: true,
+      transform:true, //para hacer las conversion de parm de string a number
+      transformOptions:{
+        enableImplicitConversion:true
+      }
     })
   );
 
